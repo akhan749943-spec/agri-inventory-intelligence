@@ -1,0 +1,11 @@
+warehouse_id,warehouse_name,city,region,capacity_units
+1,Bhopal Central Store,Bhopal,Central,15000
+2,Indore Agri Hub,Indore,Central,12000
+3,Nagpur Depot,Nagpur,Central,10000
+4,Delhi North Warehouse,Delhi,North,18000
+5,Jaipur Agri Center,Jaipur,North,14000
+6,Chandigarh Store,Chandigarh,North,9000
+7,Bangalore South Hub,Bangalore,South,16000
+8,Hyderabad Agri Depot,Hyderabad,South,13000
+9,Chennai Store,Chennai,South,11000
+10,Kolkata East Warehouse,Kolkata,East,12000

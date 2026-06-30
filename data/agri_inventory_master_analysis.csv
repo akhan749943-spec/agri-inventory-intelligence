@@ -1,0 +1,214 @@
+product_id,product_name,category,warehouse_id,city,region,current_stock,reorder_point,max_stock_level,unit_price,avg_daily_sales,coverage_days,is_dead_stock,stock_status,health_score,stock_value,carrying_cost_annual,needs_reorder
+1,Paddy Seeds - IR64,Seeds,2,Indore,Central,1336,200,2000,85.0,0.71,1881.7,False,Excess,4,113560.0,28390.0,False
+1,Paddy Seeds - IR64,Seeds,1,Bhopal,Central,285,200,2000,85.0,0.88,323.9,False,Excess,4,24225.0,6056.25,False
+1,Paddy Seeds - IR64,Seeds,7,Bangalore,South,59,200,2000,85.0,1.43,41.3,False,Critical,3,5015.0,0.0,True
+1,Paddy Seeds - IR64,Seeds,3,Nagpur,Central,1369,200,2000,85.0,1.01,1355.4,False,Excess,4,116365.0,29091.25,False
+1,Paddy Seeds - IR64,Seeds,10,Kolkata,East,1336,200,2000,85.0,1.27,1052.0,False,Excess,4,113560.0,28390.0,False
+1,Paddy Seeds - IR64,Seeds,8,Hyderabad,South,2001,200,2000,85.0,2.77,722.4,False,Excess,4,170085.0,42521.25,False
+1,Paddy Seeds - IR64,Seeds,5,Jaipur,North,233,200,2000,85.0,3.66,63.7,False,Healthy,9,19805.0,0.0,False
+1,Paddy Seeds - IR64,Seeds,4,Delhi,North,1085,200,2000,85.0,5.58,194.4,False,Excess,4,92225.0,23056.25,False
+2,Paddy Seeds - Samba,Seeds,3,Nagpur,Central,933,180,1800,90.0,2.97,314.1,False,Excess,4,83970.0,20992.5,False
+2,Paddy Seeds - Samba,Seeds,2,Indore,Central,1665,180,1800,90.0,5.14,323.9,False,Excess,4,149850.0,37462.5,False
+2,Paddy Seeds - Samba,Seeds,10,Kolkata,East,1296,180,1800,90.0,4.91,264.0,False,Excess,4,116640.0,29160.0,False
+2,Paddy Seeds - Samba,Seeds,1,Bhopal,Central,973,180,1800,90.0,6.7,145.2,False,Excess,6,87570.0,21892.5,False
+2,Paddy Seeds - Samba,Seeds,5,Jaipur,North,938,180,1800,90.0,1.64,572.0,False,Excess,4,84420.0,21105.0,False
+3,Cotton Seeds - Bt,Seeds,2,Indore,Central,246,150,1500,320.0,5.4,45.6,False,Healthy,9,78720.0,0.0,False
+3,Cotton Seeds - Bt,Seeds,1,Bhopal,Central,1326,150,1500,320.0,6.32,209.8,False,Excess,4,424320.0,106080.0,False
+3,Cotton Seeds - Bt,Seeds,7,Bangalore,South,1600,150,1500,320.0,1.17,1367.5,False,Excess,4,512000.0,128000.0,False
+3,Cotton Seeds - Bt,Seeds,10,Kolkata,East,45,150,1500,320.0,4.43,10.2,False,Critical,3,14400.0,0.0,True
+4,Soybean Seeds - JS 335,Seeds,5,Jaipur,North,772,200,2000,72.0,4.78,161.5,False,Excess,6,55584.0,13896.0,False
+4,Soybean Seeds - JS 335,Seeds,7,Bangalore,South,669,200,2000,72.0,4.62,144.8,False,Excess,6,48168.0,12042.0,False
+4,Soybean Seeds - JS 335,Seeds,8,Hyderabad,South,2093,200,2000,72.0,2.2,951.4,False,Excess,4,150696.0,37674.0,False
+4,Soybean Seeds - JS 335,Seeds,1,Bhopal,Central,1716,200,2000,72.0,1.52,1128.9,False,Excess,4,123552.0,30888.0,False
+4,Soybean Seeds - JS 335,Seeds,2,Indore,Central,355,200,2000,72.0,6.16,57.6,False,Healthy,9,25560.0,0.0,False
+4,Soybean Seeds - JS 335,Seeds,3,Nagpur,Central,1381,200,2000,72.0,2.57,537.4,False,Excess,4,99432.0,24858.0,False
+4,Soybean Seeds - JS 335,Seeds,10,Kolkata,East,2035,200,2000,72.0,3.64,559.1,False,Excess,4,146520.0,36630.0,False
+4,Soybean Seeds - JS 335,Seeds,4,Delhi,North,1159,200,2000,72.0,6.63,174.8,False,Excess,6,83448.0,20862.0,False
+5,Maize Seeds - DHM 117,Seeds,3,Nagpur,Central,1053,160,1600,95.0,5.06,208.1,False,Excess,4,100035.0,25008.75,False
+5,Maize Seeds - DHM 117,Seeds,2,Indore,Central,625,160,1600,95.0,7.66,81.6,False,Healthy,9,59375.0,0.0,False
+5,Maize Seeds - DHM 117,Seeds,7,Bangalore,South,362,160,1600,95.0,0.67,540.3,False,Excess,4,34390.0,8597.5,False
+5,Maize Seeds - DHM 117,Seeds,5,Jaipur,North,14,160,1600,95.0,1.39,10.1,False,Critical,3,1330.0,0.0,True
+5,Maize Seeds - DHM 117,Seeds,10,Kolkata,East,1040,160,1600,95.0,1.99,522.6,False,Excess,4,98800.0,24700.0,False
+6,Groundnut Seeds,Seeds,8,Hyderabad,South,695,140,1400,110.0,1.91,363.9,False,Excess,4,76450.0,19112.5,False
+6,Groundnut Seeds,Seeds,4,Delhi,North,1035,140,1400,110.0,2.1,492.9,False,Excess,4,113850.0,28462.5,False
+6,Groundnut Seeds,Seeds,5,Jaipur,North,271,140,1400,110.0,4.34,62.4,False,Healthy,9,29810.0,0.0,False
+7,Bajra Seeds,Seeds,5,Jaipur,North,0,120,1200,65.0,2.08,0.0,False,Critical,3,0.0,0.0,True
+7,Bajra Seeds,Seeds,8,Hyderabad,South,401,120,1200,65.0,1.96,204.6,False,Excess,4,26065.0,6516.25,False
+7,Bajra Seeds,Seeds,7,Bangalore,South,651,120,1200,65.0,1.16,561.2,False,Excess,4,42315.0,10578.75,False
+7,Bajra Seeds,Seeds,3,Nagpur,Central,437,120,1200,65.0,2.24,195.1,False,Excess,4,28405.0,7101.25,False
+7,Bajra Seeds,Seeds,1,Bhopal,Central,755,120,1200,65.0,2.47,305.7,False,Excess,4,49075.0,12268.75,False
+7,Bajra Seeds,Seeds,2,Indore,Central,20,120,1200,65.0,4.5,4.4,False,Critical,3,1300.0,0.0,True
+7,Bajra Seeds,Seeds,10,Kolkata,East,675,120,1200,65.0,4.49,150.3,False,Excess,6,43875.0,10968.75,False
+8,Wheat Seeds - HD 2967,Seeds,7,Bangalore,South,1768,250,3000,55.0,0.0,999.0,True,Dead Stock,1,97240.0,0.0,False
+8,Wheat Seeds - HD 2967,Seeds,4,Delhi,North,2811,250,3000,55.0,0.0,999.0,True,Dead Stock,1,154605.0,0.0,False
+8,Wheat Seeds - HD 2967,Seeds,1,Bhopal,Central,1825,250,3000,55.0,0.0,999.0,True,Dead Stock,1,100375.0,0.0,False
+8,Wheat Seeds - HD 2967,Seeds,10,Kolkata,East,2645,250,3000,55.0,0.0,999.0,True,Dead Stock,1,145475.0,0.0,False
+8,Wheat Seeds - HD 2967,Seeds,3,Nagpur,Central,1791,250,3000,55.0,0.0,999.0,True,Dead Stock,1,98505.0,0.0,False
+8,Wheat Seeds - HD 2967,Seeds,2,Indore,Central,2740,250,3000,55.0,0.0,999.0,True,Dead Stock,1,150700.0,0.0,False
+8,Wheat Seeds - HD 2967,Seeds,5,Jaipur,North,1907,250,3000,55.0,0.0,999.0,True,Dead Stock,1,104885.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,10,Kolkata,East,2357,220,2800,58.0,0.0,999.0,True,Dead Stock,1,136706.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,5,Jaipur,North,2870,220,2800,58.0,0.0,999.0,True,Dead Stock,1,166460.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,2,Indore,Central,2437,220,2800,58.0,0.0,999.0,True,Dead Stock,1,141346.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,3,Nagpur,Central,2599,220,2800,58.0,0.0,999.0,True,Dead Stock,1,150742.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,4,Delhi,North,1787,220,2800,58.0,0.0,999.0,True,Dead Stock,1,103646.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,1,Bhopal,Central,2000,220,2800,58.0,0.0,999.0,True,Dead Stock,1,116000.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,8,Hyderabad,South,2232,220,2800,58.0,0.0,999.0,True,Dead Stock,1,129456.0,0.0,False
+9,Wheat Seeds - PBW 343,Seeds,7,Bangalore,South,2744,220,2800,58.0,0.0,999.0,True,Dead Stock,1,159152.0,0.0,False
+10,Mustard Seeds - Pusa Bold,Seeds,4,Delhi,North,1568,180,2000,80.0,0.0,999.0,True,Dead Stock,1,125440.0,0.0,False
+10,Mustard Seeds - Pusa Bold,Seeds,1,Bhopal,Central,1164,180,2000,80.0,0.0,999.0,True,Dead Stock,1,93120.0,0.0,False
+10,Mustard Seeds - Pusa Bold,Seeds,8,Hyderabad,South,1776,180,2000,80.0,0.0,999.0,True,Dead Stock,1,142080.0,0.0,False
+10,Mustard Seeds - Pusa Bold,Seeds,7,Bangalore,South,2152,180,2000,80.0,0.0,999.0,True,Dead Stock,1,172160.0,0.0,False
+11,Chickpea Seeds - JG 11,Seeds,10,Kolkata,East,1238,150,1800,95.0,0.0,999.0,True,Dead Stock,1,117610.0,0.0,False
+11,Chickpea Seeds - JG 11,Seeds,2,Indore,Central,1474,150,1800,95.0,0.0,999.0,True,Dead Stock,1,140030.0,0.0,False
+11,Chickpea Seeds - JG 11,Seeds,5,Jaipur,North,1406,150,1800,95.0,0.0,999.0,True,Dead Stock,1,133570.0,0.0,False
+11,Chickpea Seeds - JG 11,Seeds,8,Hyderabad,South,1086,150,1800,95.0,0.0,999.0,True,Dead Stock,1,103170.0,0.0,False
+11,Chickpea Seeds - JG 11,Seeds,4,Delhi,North,1664,150,1800,95.0,0.0,999.0,True,Dead Stock,1,158080.0,0.0,False
+12,Lentil Seeds - Pant L 4,Seeds,8,Hyderabad,South,887,120,1500,105.0,0.0,999.0,True,Dead Stock,1,93135.0,0.0,False
+12,Lentil Seeds - Pant L 4,Seeds,4,Delhi,North,1570,120,1500,105.0,0.0,999.0,True,Dead Stock,1,164850.0,0.0,False
+12,Lentil Seeds - Pant L 4,Seeds,10,Kolkata,East,1644,120,1500,105.0,0.0,999.0,True,Dead Stock,1,172620.0,0.0,False
+12,Lentil Seeds - Pant L 4,Seeds,1,Bhopal,Central,936,120,1500,105.0,0.0,999.0,True,Dead Stock,1,98280.0,0.0,False
+12,Lentil Seeds - Pant L 4,Seeds,5,Jaipur,North,1021,120,1500,105.0,0.0,999.0,True,Dead Stock,1,107205.0,0.0,False
+13,Urea 46% N,Fertilizers,3,Nagpur,Central,2544,300,4000,267.0,3.07,828.7,False,Excess,4,679248.0,169812.0,False
+13,Urea 46% N,Fertilizers,7,Bangalore,South,23,300,4000,267.0,3.17,7.3,False,Critical,3,6141.0,0.0,True
+13,Urea 46% N,Fertilizers,10,Kolkata,East,1011,300,4000,267.0,5.09,198.6,False,Excess,4,269937.0,67484.25,False
+13,Urea 46% N,Fertilizers,8,Hyderabad,South,1205,300,4000,267.0,5.57,216.3,False,Excess,4,321735.0,80433.75,False
+13,Urea 46% N,Fertilizers,4,Delhi,North,570,300,4000,267.0,3.49,163.3,False,Excess,6,152190.0,38047.5,False
+13,Urea 46% N,Fertilizers,2,Indore,Central,1929,300,4000,267.0,0.21,9185.7,False,Excess,4,515043.0,128760.75,False
+13,Urea 46% N,Fertilizers,1,Bhopal,Central,2193,300,4000,267.0,1.94,1130.4,False,Excess,4,585531.0,146382.75,False
+13,Urea 46% N,Fertilizers,5,Jaipur,North,2606,300,4000,267.0,4.72,552.1,False,Excess,4,695802.0,173950.5,False
+13,Urea 46% N,Fertilizers,6,Chandigarh,North,964,300,4000,267.0,3.26,295.7,False,Excess,4,257388.0,64347.0,False
+13,Urea 46% N,Fertilizers,9,Chennai,South,4391,300,4000,267.0,4.36,1007.1,False,Excess,4,1172397.0,293099.25,False
+14,DAP 18:46:0,Fertilizers,6,Chandigarh,North,2334,250,3500,1350.0,1.93,1209.3,False,Excess,4,3150900.0,787725.0,False
+14,DAP 18:46:0,Fertilizers,1,Bhopal,Central,507,250,3500,1350.0,0.68,745.6,False,Excess,4,684450.0,171112.5,False
+14,DAP 18:46:0,Fertilizers,9,Chennai,South,47,250,3500,1350.0,3.87,12.1,False,Critical,3,63450.0,0.0,True
+15,NPK 10:26:26,Fertilizers,4,Delhi,North,3158,200,3000,1450.0,4.22,748.3,False,Excess,4,4579100.0,1144775.0,False
+15,NPK 10:26:26,Fertilizers,7,Bangalore,South,1078,200,3000,1450.0,2.08,518.3,False,Excess,4,1563100.0,390775.0,False
+15,NPK 10:26:26,Fertilizers,2,Indore,Central,1290,200,3000,1450.0,2.37,544.3,False,Excess,4,1870500.0,467625.0,False
+15,NPK 10:26:26,Fertilizers,5,Jaipur,North,638,200,3000,1450.0,2.37,269.2,False,Excess,4,925100.0,231275.0,False
+16,MOP Potash,Fertilizers,4,Delhi,North,346,180,2500,900.0,5.17,66.9,False,Healthy,9,311400.0,0.0,False
+16,MOP Potash,Fertilizers,5,Jaipur,North,1351,180,2500,900.0,3.3,409.4,False,Excess,4,1215900.0,303975.0,False
+16,MOP Potash,Fertilizers,7,Bangalore,South,27,180,2500,900.0,1.53,17.6,False,Critical,3,24300.0,0.0,True
+16,MOP Potash,Fertilizers,2,Indore,Central,2482,180,2500,900.0,4.07,609.8,False,Excess,4,2233800.0,558450.0,False
+16,MOP Potash,Fertilizers,6,Chandigarh,North,954,180,2500,900.0,1.97,484.3,False,Excess,4,858600.0,214650.0,False
+16,MOP Potash,Fertilizers,3,Nagpur,Central,106,180,2500,900.0,3.34,31.7,False,Critical,3,95400.0,0.0,True
+16,MOP Potash,Fertilizers,10,Kolkata,East,1450,180,2500,900.0,3.3,439.4,False,Excess,4,1305000.0,326250.0,False
+16,MOP Potash,Fertilizers,8,Hyderabad,South,214,180,2500,900.0,3.92,54.6,False,Healthy,9,192600.0,0.0,False
+17,Organic Compost Premium,Fertilizers,2,Indore,Central,2009,150,2000,450.0,6.24,322.0,False,Excess,4,904050.0,226012.5,False
+17,Organic Compost Premium,Fertilizers,3,Nagpur,Central,581,150,2000,450.0,1.69,343.8,False,Excess,4,261450.0,65362.5,False
+17,Organic Compost Premium,Fertilizers,5,Jaipur,North,705,150,2000,450.0,3.23,218.3,False,Excess,4,317250.0,79312.5,False
+17,Organic Compost Premium,Fertilizers,1,Bhopal,Central,269,150,2000,450.0,2.59,103.9,False,Excess,6,121050.0,30262.5,False
+17,Organic Compost Premium,Fertilizers,7,Bangalore,South,731,150,2000,450.0,5.81,125.8,False,Excess,6,328950.0,82237.5,False
+17,Organic Compost Premium,Fertilizers,8,Hyderabad,South,98,150,2000,450.0,2.84,34.5,False,Critical,3,44100.0,0.0,True
+17,Organic Compost Premium,Fertilizers,10,Kolkata,East,701,150,2000,450.0,3.92,178.8,False,Excess,6,315450.0,78862.5,False
+18,Zinc Sulphate 21%,Fertilizers,9,Chennai,South,39,100,1500,185.0,4.72,8.3,False,Critical,3,7215.0,0.0,True
+18,Zinc Sulphate 21%,Fertilizers,7,Bangalore,South,925,100,1500,185.0,3.26,283.7,False,Excess,4,171125.0,42781.25,False
+18,Zinc Sulphate 21%,Fertilizers,1,Bhopal,Central,45,100,1500,185.0,1.48,30.4,False,Critical,3,8325.0,0.0,True
+18,Zinc Sulphate 21%,Fertilizers,8,Hyderabad,South,792,100,1500,185.0,6.42,123.4,False,Excess,6,146520.0,36630.0,False
+18,Zinc Sulphate 21%,Fertilizers,10,Kolkata,East,683,100,1500,185.0,4.12,165.8,False,Excess,6,126355.0,31588.75,False
+18,Zinc Sulphate 21%,Fertilizers,2,Indore,Central,745,100,1500,185.0,1.48,503.4,False,Excess,4,137825.0,34456.25,False
+18,Zinc Sulphate 21%,Fertilizers,6,Chandigarh,North,30,100,1500,185.0,5.83,5.1,False,Critical,3,5550.0,0.0,True
+18,Zinc Sulphate 21%,Fertilizers,5,Jaipur,North,940,100,1500,185.0,3.79,248.0,False,Excess,4,173900.0,43475.0,False
+18,Zinc Sulphate 21%,Fertilizers,4,Delhi,North,135,100,1500,185.0,4.44,30.4,False,Healthy,9,24975.0,0.0,False
+18,Zinc Sulphate 21%,Fertilizers,3,Nagpur,Central,450,100,1500,185.0,2.46,182.9,False,Excess,4,83250.0,20812.5,False
+19,Boron 20%,Fertilizers,4,Delhi,North,1255,80,1200,320.0,6.22,201.8,False,Excess,4,401600.0,100400.0,False
+19,Boron 20%,Fertilizers,5,Jaipur,North,1136,80,1200,320.0,2.61,435.2,False,Excess,4,363520.0,90880.0,False
+19,Boron 20%,Fertilizers,3,Nagpur,Central,12,80,1200,320.0,3.77,3.2,False,Critical,3,3840.0,0.0,True
+19,Boron 20%,Fertilizers,7,Bangalore,South,1055,80,1200,320.0,3.48,303.2,False,Excess,4,337600.0,84400.0,False
+19,Boron 20%,Fertilizers,6,Chandigarh,North,609,80,1200,320.0,3.22,189.1,False,Excess,4,194880.0,48720.0,False
+19,Boron 20%,Fertilizers,1,Bhopal,Central,637,80,1200,320.0,3.99,159.6,False,Excess,6,203840.0,50960.0,False
+19,Boron 20%,Fertilizers,10,Kolkata,East,206,80,1200,320.0,4.26,48.4,False,Healthy,9,65920.0,0.0,False
+19,Boron 20%,Fertilizers,9,Chennai,South,16,80,1200,320.0,3.87,4.1,False,Critical,3,5120.0,0.0,True
+19,Boron 20%,Fertilizers,2,Indore,Central,27,80,1200,320.0,2.94,9.2,False,Critical,3,8640.0,0.0,True
+20,Chlorpyrifos 20% EC,Pesticides,8,Hyderabad,South,55,120,1500,380.0,2.41,22.8,False,Critical,3,20900.0,0.0,True
+20,Chlorpyrifos 20% EC,Pesticides,5,Jaipur,North,957,120,1500,380.0,2.06,464.6,False,Excess,4,363660.0,90915.0,False
+20,Chlorpyrifos 20% EC,Pesticides,7,Bangalore,South,1094,120,1500,380.0,5.03,217.5,False,Excess,4,415720.0,103930.0,False
+20,Chlorpyrifos 20% EC,Pesticides,10,Kolkata,East,333,120,1500,380.0,2.09,159.3,False,Excess,6,126540.0,31635.0,False
+20,Chlorpyrifos 20% EC,Pesticides,1,Bhopal,Central,1103,120,1500,380.0,2.26,488.1,False,Excess,4,419140.0,104785.0,False
+20,Chlorpyrifos 20% EC,Pesticides,2,Indore,Central,770,120,1500,380.0,3.17,242.9,False,Excess,4,292600.0,73150.0,False
+20,Chlorpyrifos 20% EC,Pesticides,9,Chennai,South,259,120,1500,380.0,5.2,49.8,False,Healthy,9,98420.0,0.0,False
+20,Chlorpyrifos 20% EC,Pesticides,3,Nagpur,Central,651,120,1500,380.0,4.28,152.1,False,Excess,6,247380.0,61845.0,False
+21,Mancozeb 75% WP,Pesticides,9,Chennai,South,288,100,1200,285.0,5.72,50.3,False,Healthy,9,82080.0,0.0,False
+21,Mancozeb 75% WP,Pesticides,3,Nagpur,Central,525,100,1200,285.0,1.64,320.1,False,Excess,4,149625.0,37406.25,False
+21,Mancozeb 75% WP,Pesticides,5,Jaipur,North,421,100,1200,285.0,3.14,134.1,False,Excess,6,119985.0,29996.25,False
+21,Mancozeb 75% WP,Pesticides,10,Kolkata,East,1316,100,1200,285.0,2.79,471.7,False,Excess,4,375060.0,93765.0,False
+21,Mancozeb 75% WP,Pesticides,2,Indore,Central,586,100,1200,285.0,4.34,135.0,False,Excess,6,167010.0,41752.5,False
+21,Mancozeb 75% WP,Pesticides,1,Bhopal,Central,328,100,1200,285.0,1.62,202.5,False,Excess,4,93480.0,23370.0,False
+21,Mancozeb 75% WP,Pesticides,8,Hyderabad,South,863,100,1200,285.0,2.37,364.1,False,Excess,4,245955.0,61488.75,False
+21,Mancozeb 75% WP,Pesticides,7,Bangalore,South,400,100,1200,285.0,4.37,91.5,False,Excess,6,114000.0,28500.0,False
+22,Glyphosate 41% SL,Pesticides,8,Hyderabad,South,62,90,1100,420.0,2.92,21.2,False,Critical,3,26040.0,0.0,True
+22,Glyphosate 41% SL,Pesticides,1,Bhopal,Central,173,90,1100,420.0,4.7,36.8,False,Healthy,9,72660.0,0.0,False
+22,Glyphosate 41% SL,Pesticides,2,Indore,Central,743,90,1100,420.0,1.66,447.6,False,Excess,4,312060.0,78015.0,False
+22,Glyphosate 41% SL,Pesticides,3,Nagpur,Central,44,90,1100,420.0,3.29,13.4,False,Critical,3,18480.0,0.0,True
+22,Glyphosate 41% SL,Pesticides,10,Kolkata,East,348,90,1100,420.0,3.2,108.8,False,Excess,6,146160.0,36540.0,False
+22,Glyphosate 41% SL,Pesticides,9,Chennai,South,104,90,1100,420.0,2.24,46.4,False,Healthy,9,43680.0,0.0,False
+22,Glyphosate 41% SL,Pesticides,7,Bangalore,South,208,90,1100,420.0,2.78,74.8,False,Healthy,9,87360.0,0.0,False
+22,Glyphosate 41% SL,Pesticides,5,Jaipur,North,279,90,1100,420.0,4.94,56.5,False,Healthy,9,117180.0,0.0,False
+23,Imidacloprid 17.8% SL,Pesticides,10,Kolkata,East,660,80,1000,620.0,3.34,197.6,False,Excess,4,409200.0,102300.0,False
+23,Imidacloprid 17.8% SL,Pesticides,1,Bhopal,Central,1043,80,1000,620.0,2.3,453.5,False,Excess,4,646660.0,161665.0,False
+23,Imidacloprid 17.8% SL,Pesticides,7,Bangalore,South,604,80,1000,620.0,3.92,154.1,False,Excess,6,374480.0,93620.0,False
+23,Imidacloprid 17.8% SL,Pesticides,2,Indore,Central,649,80,1000,620.0,2.62,247.7,False,Excess,4,402380.0,100595.0,False
+23,Imidacloprid 17.8% SL,Pesticides,9,Chennai,South,574,80,1000,620.0,3.13,183.4,False,Excess,4,355880.0,88970.0,False
+23,Imidacloprid 17.8% SL,Pesticides,8,Hyderabad,South,913,80,1000,620.0,0.93,981.7,False,Excess,4,566060.0,141515.0,False
+23,Imidacloprid 17.8% SL,Pesticides,5,Jaipur,North,1049,80,1000,620.0,5.43,193.2,False,Excess,4,650380.0,162595.0,False
+23,Imidacloprid 17.8% SL,Pesticides,3,Nagpur,Central,332,80,1000,620.0,5.39,61.6,False,Healthy,9,205840.0,0.0,False
+24,Carbendazim 50% WP,Pesticides,2,Indore,Central,976,90,1100,245.0,4.96,196.8,False,Excess,4,239120.0,59780.0,False
+24,Carbendazim 50% WP,Pesticides,8,Hyderabad,South,24,90,1100,245.0,4.22,5.7,False,Critical,3,5880.0,0.0,True
+24,Carbendazim 50% WP,Pesticides,3,Nagpur,Central,13,90,1100,245.0,1.88,6.9,False,Critical,3,3185.0,0.0,True
+24,Carbendazim 50% WP,Pesticides,10,Kolkata,East,437,90,1100,245.0,3.82,114.4,False,Excess,6,107065.0,26766.25,False
+24,Carbendazim 50% WP,Pesticides,9,Chennai,South,162,90,1100,245.0,2.77,58.5,False,Healthy,9,39690.0,0.0,False
+24,Carbendazim 50% WP,Pesticides,7,Bangalore,South,497,90,1100,245.0,2.47,201.2,False,Excess,4,121765.0,30441.25,False
+25,"2,4-D Amine Salt",Pesticides,1,Bhopal,Central,949,80,1000,195.0,3.8,249.7,False,Excess,4,185055.0,46263.75,False
+25,"2,4-D Amine Salt",Pesticides,9,Chennai,South,647,80,1000,195.0,4.83,134.0,False,Excess,6,126165.0,31541.25,False
+25,"2,4-D Amine Salt",Pesticides,7,Bangalore,South,313,80,1000,195.0,1.24,252.4,False,Excess,4,61035.0,15258.75,False
+25,"2,4-D Amine Salt",Pesticides,5,Jaipur,North,961,80,1000,195.0,3.5,274.6,False,Excess,4,187395.0,46848.75,False
+25,"2,4-D Amine Salt",Pesticides,8,Hyderabad,South,21,80,1000,195.0,0.91,23.1,False,Critical,3,4095.0,0.0,True
+25,"2,4-D Amine Salt",Pesticides,10,Kolkata,East,502,80,1000,195.0,2.1,239.0,False,Excess,4,97890.0,24472.5,False
+25,"2,4-D Amine Salt",Pesticides,2,Indore,Central,29,80,1000,195.0,4.91,5.9,False,Critical,3,5655.0,0.0,True
+26,Profenofos 50% EC,Pesticides,1,Bhopal,Central,29,70,900,520.0,2.09,13.9,False,Critical,3,15080.0,0.0,True
+26,Profenofos 50% EC,Pesticides,5,Jaipur,North,24,70,900,520.0,2.29,10.5,False,Critical,3,12480.0,0.0,True
+26,Profenofos 50% EC,Pesticides,7,Bangalore,South,848,70,900,520.0,3.66,231.7,False,Excess,4,440960.0,110240.0,False
+26,Profenofos 50% EC,Pesticides,8,Hyderabad,South,465,70,900,520.0,2.73,170.3,False,Excess,6,241800.0,60450.0,False
+26,Profenofos 50% EC,Pesticides,10,Kolkata,East,508,70,900,520.0,5.71,89.0,False,Healthy,9,264160.0,0.0,False
+26,Profenofos 50% EC,Pesticides,9,Chennai,South,558,70,900,520.0,1.27,439.4,False,Excess,4,290160.0,72540.0,False
+26,Profenofos 50% EC,Pesticides,2,Indore,Central,130,70,900,520.0,3.7,35.1,False,Healthy,9,67600.0,0.0,False
+27,Gibberellic Acid 0.001%,Agrochemicals,1,Bhopal,Central,456,50,600,850.0,0.0,999.0,True,Dead Stock,1,387600.0,0.0,False
+27,Gibberellic Acid 0.001%,Agrochemicals,9,Chennai,South,340,50,600,850.0,0.0,999.0,True,Dead Stock,1,289000.0,0.0,False
+27,Gibberellic Acid 0.001%,Agrochemicals,7,Bangalore,South,408,50,600,850.0,0.0,999.0,True,Dead Stock,1,346800.0,0.0,False
+28,Humic Acid Granules,Agrochemicals,7,Bangalore,South,773,80,1000,320.0,0.0,999.0,True,Dead Stock,1,247360.0,0.0,False
+28,Humic Acid Granules,Agrochemicals,1,Bhopal,Central,812,80,1000,320.0,0.0,999.0,True,Dead Stock,1,259840.0,0.0,False
+28,Humic Acid Granules,Agrochemicals,5,Jaipur,North,927,80,1000,320.0,0.0,999.0,True,Dead Stock,1,296640.0,0.0,False
+29,Seaweed Extract,Agrochemicals,9,Chennai,South,385,60,800,480.0,2.61,147.5,False,Excess,6,184800.0,46200.0,False
+29,Seaweed Extract,Agrochemicals,1,Bhopal,Central,450,60,800,480.0,2.09,215.3,False,Excess,4,216000.0,54000.0,False
+29,Seaweed Extract,Agrochemicals,7,Bangalore,South,269,60,800,480.0,4.41,61.0,False,Healthy,9,129120.0,0.0,False
+29,Seaweed Extract,Agrochemicals,3,Nagpur,Central,314,60,800,480.0,0.67,468.7,False,Excess,4,150720.0,37680.0,False
+29,Seaweed Extract,Agrochemicals,5,Jaipur,North,374,60,800,480.0,2.33,160.5,False,Excess,6,179520.0,44880.0,False
+30,Knapsack Sprayer 16L,Farm Equipment,8,Hyderabad,South,244,50,500,1200.0,0.37,659.5,False,Excess,4,292800.0,73200.0,False
+30,Knapsack Sprayer 16L,Farm Equipment,2,Indore,Central,229,50,500,1200.0,0.33,693.9,False,Excess,4,274800.0,68700.0,False
+30,Knapsack Sprayer 16L,Farm Equipment,6,Chandigarh,North,305,50,500,1200.0,0.36,847.2,False,Excess,4,366000.0,91500.0,False
+31,Power Sprayer 25L,Farm Equipment,6,Chandigarh,North,322,30,300,4500.0,0.0,999.0,True,Dead Stock,1,1449000.0,0.0,False
+31,Power Sprayer 25L,Farm Equipment,7,Bangalore,South,302,30,300,4500.0,0.0,999.0,True,Dead Stock,1,1359000.0,0.0,False
+31,Power Sprayer 25L,Farm Equipment,4,Delhi,North,288,30,300,4500.0,0.0,999.0,True,Dead Stock,1,1296000.0,0.0,False
+31,Power Sprayer 25L,Farm Equipment,8,Hyderabad,South,276,30,300,4500.0,0.0,999.0,True,Dead Stock,1,1242000.0,0.0,False
+31,Power Sprayer 25L,Farm Equipment,2,Indore,Central,316,30,300,4500.0,0.0,999.0,True,Dead Stock,1,1422000.0,0.0,False
+31,Power Sprayer 25L,Farm Equipment,10,Kolkata,East,247,30,300,4500.0,0.0,999.0,True,Dead Stock,1,1111500.0,0.0,False
+32,Mini Tiller 5HP,Farm Equipment,2,Indore,Central,103,10,100,28000.0,0.0,999.0,True,Dead Stock,1,2884000.0,0.0,False
+32,Mini Tiller 5HP,Farm Equipment,6,Chandigarh,North,91,10,100,28000.0,0.0,999.0,True,Dead Stock,1,2548000.0,0.0,False
+32,Mini Tiller 5HP,Farm Equipment,7,Bangalore,South,97,10,100,28000.0,0.0,999.0,True,Dead Stock,1,2716000.0,0.0,False
+32,Mini Tiller 5HP,Farm Equipment,10,Kolkata,East,76,10,100,28000.0,0.0,999.0,True,Dead Stock,1,2128000.0,0.0,False
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,6,Chandigarh,North,153,20,200,12000.0,0.0,999.0,True,Dead Stock,1,1836000.0,0.0,False
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,4,Delhi,North,186,20,200,12000.0,0.0,999.0,True,Dead Stock,1,2232000.0,0.0,False
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,7,Bangalore,South,145,20,200,12000.0,0.0,999.0,True,Dead Stock,1,1740000.0,0.0,False
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,2,Indore,Central,111,20,200,12000.0,0.0,999.0,True,Dead Stock,1,1332000.0,0.0,False
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,8,Hyderabad,South,134,20,200,12000.0,0.0,999.0,True,Dead Stock,1,1608000.0,0.0,False
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,10,Kolkata,East,140,20,200,12000.0,0.0,999.0,True,Dead Stock,1,1680000.0,0.0,False
+34,HDPE Pipes 6m,Farm Equipment,7,Bangalore,South,127,100,1000,185.0,0.14,907.1,False,Excess,4,23495.0,5873.75,False
+34,HDPE Pipes 6m,Farm Equipment,8,Hyderabad,South,953,100,1000,185.0,0.31,3074.2,False,Excess,4,176305.0,44076.25,False
+34,HDPE Pipes 6m,Farm Equipment,4,Delhi,North,998,100,1000,185.0,0.24,4158.3,False,Excess,4,184630.0,46157.5,False
+34,HDPE Pipes 6m,Farm Equipment,6,Chandigarh,North,653,100,1000,185.0,0.48,1360.4,False,Excess,4,120805.0,30201.25,False
+34,HDPE Pipes 6m,Farm Equipment,10,Kolkata,East,673,100,1000,185.0,0.43,1565.1,False,Excess,4,124505.0,31126.25,False
+34,HDPE Pipes 6m,Farm Equipment,2,Indore,Central,574,100,1000,185.0,0.22,2609.1,False,Excess,4,106190.0,26547.5,False
+35,Hand Tools Set,Farm Equipment,6,Chandigarh,North,647,60,600,850.0,0.18,3594.4,False,Excess,4,549950.0,137487.5,False
+35,Hand Tools Set,Farm Equipment,4,Delhi,North,30,60,600,850.0,0.44,68.2,False,Critical,3,25500.0,0.0,True
+35,Hand Tools Set,Farm Equipment,2,Indore,Central,334,60,600,850.0,0.4,835.0,False,Excess,4,283900.0,70975.0,False
+35,Hand Tools Set,Farm Equipment,10,Kolkata,East,535,60,600,850.0,0.17,3147.1,False,Excess,4,454750.0,113687.5,False
+35,Hand Tools Set,Farm Equipment,7,Bangalore,South,602,60,600,850.0,0.46,1308.7,False,Excess,4,511700.0,127925.0,False

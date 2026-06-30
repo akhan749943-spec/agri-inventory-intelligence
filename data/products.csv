@@ -1,0 +1,36 @@
+product_id,product_name,category,sub_category,unit_price,unit_of_measure,shelf_life_months,reorder_point,max_stock_level
+1,Paddy Seeds - IR64,Seeds,Kharif Seeds,85,Kg,18,200,2000
+2,Paddy Seeds - Samba,Seeds,Kharif Seeds,90,Kg,18,180,1800
+3,Cotton Seeds - Bt,Seeds,Kharif Seeds,320,Packet,18,150,1500
+4,Soybean Seeds - JS 335,Seeds,Kharif Seeds,72,Kg,18,200,2000
+5,Maize Seeds - DHM 117,Seeds,Kharif Seeds,95,Kg,18,160,1600
+6,Groundnut Seeds,Seeds,Kharif Seeds,110,Kg,18,140,1400
+7,Bajra Seeds,Seeds,Kharif Seeds,65,Kg,18,120,1200
+8,Wheat Seeds - HD 2967,Seeds,Rabi Seeds,55,Kg,24,250,3000
+9,Wheat Seeds - PBW 343,Seeds,Rabi Seeds,58,Kg,24,220,2800
+10,Mustard Seeds - Pusa Bold,Seeds,Rabi Seeds,80,Kg,18,180,2000
+11,Chickpea Seeds - JG 11,Seeds,Rabi Seeds,95,Kg,18,150,1800
+12,Lentil Seeds - Pant L 4,Seeds,Rabi Seeds,105,Kg,18,120,1500
+13,Urea 46% N,Fertilizers,Nitrogenous,267,Bag(50kg),36,300,4000
+14,DAP 18:46:0,Fertilizers,Phosphatic,1350,Bag(50kg),36,250,3500
+15,NPK 10:26:26,Fertilizers,Complex,1450,Bag(50kg),36,200,3000
+16,MOP Potash,Fertilizers,Potassic,900,Bag(50kg),36,180,2500
+17,Organic Compost Premium,Fertilizers,Organic,450,Bag(40kg),24,150,2000
+18,Zinc Sulphate 21%,Fertilizers,Micronutrient,185,Kg,24,100,1500
+19,Boron 20%,Fertilizers,Micronutrient,320,Kg,24,80,1200
+20,Chlorpyrifos 20% EC,Pesticides,Insecticide,380,Liter,24,120,1500
+21,Mancozeb 75% WP,Pesticides,Fungicide,285,Kg,24,100,1200
+22,Glyphosate 41% SL,Pesticides,Herbicide,420,Liter,24,90,1100
+23,Imidacloprid 17.8% SL,Pesticides,Insecticide,620,Liter,24,80,1000
+24,Carbendazim 50% WP,Pesticides,Fungicide,245,Kg,24,90,1100
+25,"2,4-D Amine Salt",Pesticides,Herbicide,195,Liter,24,80,1000
+26,Profenofos 50% EC,Pesticides,Insecticide,520,Liter,24,70,900
+27,Gibberellic Acid 0.001%,Agrochemicals,Growth Regulator,850,Liter,18,50,600
+28,Humic Acid Granules,Agrochemicals,Soil Conditioner,320,Kg,24,80,1000
+29,Seaweed Extract,Agrochemicals,Bio Stimulant,480,Liter,18,60,800
+30,Knapsack Sprayer 16L,Farm Equipment,Sprayers,1200,Unit,0,50,500
+31,Power Sprayer 25L,Farm Equipment,Sprayers,4500,Unit,0,30,300
+32,Mini Tiller 5HP,Farm Equipment,Tillers,28000,Unit,0,10,100
+33,Drip Irrigation Kit 1 Ac,Farm Equipment,Irrigation,12000,Unit,0,20,200
+34,HDPE Pipes 6m,Farm Equipment,Irrigation,185,Piece,0,100,1000
+35,Hand Tools Set,Farm Equipment,Tools,850,Set,0,60,600

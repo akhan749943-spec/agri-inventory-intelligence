@@ -1,0 +1,16 @@
+supplier_id,supplier_name,city,region,lead_time_days,reliability_score
+1,AgroSeed India Pvt Ltd,Bhopal,Central,7,8.5
+2,Kisan Fertilizers Ltd,Mumbai,West,10,7.2
+3,GreenCrop Pesticides,Delhi,North,5,9.1
+4,HarvestPro Supplies,Hyderabad,South,12,6.8
+5,NutriSoil Agro,Pune,West,8,8.0
+6,BioGrow Solutions,Bangalore,South,6,8.8
+7,FarmFirst Equipment Co,Chennai,South,15,7.5
+8,Seed Masters India,Jaipur,North,9,7.9
+9,ChemAgro Industries,Nagpur,Central,7,8.3
+10,RuralTech Agri,Kolkata,East,11,6.5
+11,SoilGuard Chemicals,Indore,Central,8,7.8
+12,CropBoost Nutrients,Chandigarh,North,6,9.0
+13,AgriEquip India,Ahmedabad,West,14,7.1
+14,NatureFirst Organics,Coimbatore,South,10,8.6
+15,PestShield Corp,Ludhiana,North,7,8.2
