@@ -28,126 +28,66 @@ PostgreSQL | Python (Pandas, SQLAlchemy) | Power BI | DAX
 
 #### **🗄️ Database Schema**
 
+Here is the Database Schema for my project (5 relational tables: products, warehouses, suppliers, inventory, sales_transactions):
 
-
-Here is the Database Schema for my project:
-
-
-
+```mermaid
 erDiagram
+    products ||--o{ inventory : "stored in"
+    products ||--o{ sales_transactions : "sold in"
+    warehouses ||--o{ inventory : "holds"
+    warehouses ||--o{ sales_transactions : "fulfills"
+    suppliers ||--o{ sales_transactions : "supplies"
 
-   products ||--o{ inventory : "stored in"
+    products {
+        integer product_id PK
+        varchar product_name
+        varchar category
+        varchar sub_category
+        numeric unit_price
+        varchar unit_of_measure
+        integer shelf_life_months
+        integer reorder_point
+        integer max_stock_level
+    }
 
-   products ||--o{ sales_transactions : "sold in"
+    warehouses {
+        integer warehouse_id PK
+        varchar warehouse_name
+        varchar city
+        varchar region
+        integer capacity_units
+    }
 
-   warehouses ||--o{ inventory : "holds"
+    inventory {
+        integer inventory_id PK
+        integer product_id FK
+        integer warehouse_id FK
+        integer current_stock
+        date last_restocked_date
+        date expiry_date
+    }
 
-   warehouses ||--o{ sales_transactions : "fulfills"
+    suppliers {
+        integer supplier_id PK
+        varchar supplier_name
+        varchar city
+        varchar region
+        integer lead_time_days
+        numeric reliability_score
+    }
 
-   suppliers ||--o{ sales_transactions : "supplies"
-
-
-
-   products {
-
-       integer product_id PK
-
-       varchar product_name
-
-       varchar category
-
-       varchar sub_category
-
-       numeric unit_price
-
-       varchar unit_of_measure
-
-       integer shelf_life_months
-
-       integer reorder_point
-
-       integer max_stock_level
-   }
-
-
-
-   warehouses {
-
-       integer warehouse_id PK
-
-       varchar warehouse_name
-
-       varchar city
-
-       varchar region
-
-       integer capacity_units
-
-   }
-
-
-
-   inventory {
-
-       integer inventory_id PK
-
-       integer product_id FK
-
-       integer warehouse_id FK
-
-       integer current_stock
-
-       date last_restocked_date
-
-       date expiry_date
-
-   }
-
-
-
-   suppliers {
-
-       integer supplier_id PK
-
-       varchar supplier_name
-
-       varchar city
-
-       varchar region
-
-      integer lead_time_days
-
-       numeric reliability_score
-
-   }
-
-
-
-   sales_transactions {
-
-       integer transaction_id PK
-
-       integer product_id FK
-
-       integer warehouse_id FK
-
-       integer supplier_id FK
-
-       date sale_date
-
-       integer quantity_sold
-
-       numeric unit_price_sold
-
-       numeric total_amount
-
-       varchar customer_type
-
-   }
-
-5 relational tables: products, warehouses, suppliers, inventory, sales\_transactions
-
-
+    sales_transactions {
+        integer transaction_id PK
+        integer product_id FK
+        integer warehouse_id FK
+        integer supplier_id FK
+        date sale_date
+        integer quantity_sold
+        numeric unit_price_sold
+        numeric total_amount
+        varchar customer_type
+    }
+```
 
 #### **📊 Dashboard Pages**
 
