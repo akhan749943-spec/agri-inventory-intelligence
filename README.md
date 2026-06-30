@@ -34,11 +34,7 @@ Here is the Database Schema for my project:
 
 
 
-<p align="center">
-
-&#x20;   <img src="visuals/schema\_diagram.png" alt="Database Schema" width="900">
-
-</p>
+!\[Database Schema](./visuals/schema\_diagram.png)
 
 
 
