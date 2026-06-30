@@ -36,115 +36,114 @@ Here is the Database Schema for my project:
 
 erDiagram
 
-&#x20;   products ||--o{ inventory : "stored in"
+   products ||--o{ inventory : "stored in"
 
-&#x20;   products ||--o{ sales\_transactions : "sold in"
+   products ||--o{ sales_transactions : "sold in"
 
-&#x20;   warehouses ||--o{ inventory : "holds"
+   warehouses ||--o{ inventory : "holds"
 
-&#x20;   warehouses ||--o{ sales\_transactions : "fulfills"
+   warehouses ||--o{ sales_transactions : "fulfills"
 
-&#x20;   suppliers ||--o{ sales\_transactions : "supplies"
-
-
-
-&#x20;   products {
-
-&#x20;       integer product\_id PK
-
-&#x20;       varchar product\_name
-
-&#x20;       varchar category
-
-&#x20;       varchar sub\_category
-
-&#x20;       numeric unit\_price
-
-&#x20;       varchar unit\_of\_measure
-
-&#x20;       integer shelf\_life\_months
-
-&#x20;       integer reorder\_point
-
-&#x20;       integer max\_stock\_level
-
-&#x20;   }
+   suppliers ||--o{ sales_transactions : "supplies"
 
 
 
-&#x20;   warehouses {
+   products {
 
-&#x20;       integer warehouse\_id PK
+       integer product_id PK
 
-&#x20;       varchar warehouse\_name
+       varchar product_name
 
-&#x20;       varchar city
+       varchar category
 
-&#x20;       varchar region
+       varchar sub_category
 
-&#x20;       integer capacity\_units
+       numeric unit_price
 
-&#x20;   }
+       varchar unit_of_measure
 
+       integer shelf_life_months
 
+       integer reorder_point
 
-&#x20;   inventory {
-
-&#x20;       integer inventory\_id PK
-
-&#x20;       integer product\_id FK
-
-&#x20;       integer warehouse\_id FK
-
-&#x20;       integer current\_stock
-
-&#x20;       date last\_restocked\_date
-
-&#x20;       date expiry\_date
-
-&#x20;   }
+       integer max_stock_level
+   }
 
 
 
-&#x20;   suppliers {
+   warehouses {
 
-&#x20;       integer supplier\_id PK
+       integer warehouse_id PK
 
-&#x20;       varchar supplier\_name
+       varchar warehouse_name
 
-&#x20;       varchar city
+       varchar city
 
-&#x20;       varchar region
+       varchar region
 
-&#x20;       integer lead\_time\_days
+       integer capacity_units
 
-&#x20;       numeric reliability\_score
-
-&#x20;   }
+   }
 
 
 
-&#x20;   sales\_transactions {
+   inventory {
 
-&#x20;       integer transaction\_id PK
+       integer inventory_id PK
 
-&#x20;       integer product\_id FK
+       integer product_id FK
 
-&#x20;       integer warehouse\_id FK
+       integer warehouse_id FK
 
-&#x20;       integer supplier\_id FK
+       integer current_stock
 
-&#x20;       date sale\_date
+       date last_restocked_date
 
-&#x20;       integer quantity\_sold
+       date expiry_date
 
-&#x20;       numeric unit\_price\_sold
+   }
 
-&#x20;       numeric total\_amount
 
-&#x20;       varchar customer\_type
 
-&#x20;   }
+   suppliers {
+
+       integer supplier_id PK
+
+       varchar supplier_name
+
+       varchar city
+
+       varchar region
+
+      integer lead_time_days
+
+       numeric reliability_score
+
+   }
+
+
+
+   sales_transactions {
+
+       integer transaction_id PK
+
+       integer product_id FK
+
+       integer warehouse_id FK
+
+       integer supplier_id FK
+
+       date sale_date
+
+       integer quantity_sold
+
+       numeric unit_price_sold
+
+       numeric total_amount
+
+       varchar customer_type
+
+   }
 
 5 relational tables: products, warehouses, suppliers, inventory, sales\_transactions
 
@@ -158,7 +157,7 @@ erDiagram
 
 
 
-!\[Inventory Overview](visuals/Page\_01\_Inventory\_Overview.png)
+![Inventory Overview](visuals/Page\_01\_Inventory\_Overview.png)
 
 
 
@@ -172,7 +171,7 @@ erDiagram
 
 
 
-!\[Dead Stock Analysis](visuals/Page\_02\_Dead\_Stock\_\&\_Risk\_Analysis.png)
+![Dead Stock Analysis](visuals/Page\_02\_Dead\_Stock\_\&\_Risk\_Analysis.png)
 
 
 
@@ -186,7 +185,7 @@ erDiagram
 
 
 
-!\[Reorder Intelligence](visuals/Page\_03\_Reorder\_Intelligence.png)
+![Reorder Intelligence](visuals/Page\_03\_Reorder\_Intelligence.png)
 
 
 
