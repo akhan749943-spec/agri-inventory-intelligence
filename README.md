@@ -60,7 +60,7 @@ Here is the Database Schema for my project:
 
 <details>
 
-<summary><b>📉 Page 2 – Dead Stock \& Risk Analysis</b></summary>
+<summary><b>📉 Page 2 – Dead Stock and Risk Analysis</b></summary>
 
 
 
