@@ -50,7 +50,7 @@ Here is the Database Schema for my project:
 
 
 
-!\[Inventory Overview](visuals/page01\_inventory\_overview.png)
+!\[Inventory Overview](./visuals/page01\_inventory\_overview.png)
 
 
 
@@ -64,7 +64,7 @@ Here is the Database Schema for my project:
 
 
 
-!\[Dead Stock Analysis](visuals/page02\_dead\_stock\_risk\_analysis.png)
+!\[Dead Stock Analysis](./visuals/page02\_dead\_stock\_risk\_analysis.png)
 
 
 
@@ -78,7 +78,7 @@ Here is the Database Schema for my project:
 
 
 
-!\[Reorder Intelligence](visuals/page03\_reorder\_intelligence.png)
+!\[Reorder Intelligence](./visuals/page03\_reorder\_intelligence.png)
 
 
 
