@@ -34,7 +34,117 @@ Here is the Database Schema for my project:
 
 
 
-!\[Database Schema](./visuals/schema\_diagram.png)
+erDiagram
+
+&#x20;   products ||--o{ inventory : "stored in"
+
+&#x20;   products ||--o{ sales\_transactions : "sold in"
+
+&#x20;   warehouses ||--o{ inventory : "holds"
+
+&#x20;   warehouses ||--o{ sales\_transactions : "fulfills"
+
+&#x20;   suppliers ||--o{ sales\_transactions : "supplies"
+
+
+
+&#x20;   products {
+
+&#x20;       integer product\_id PK
+
+&#x20;       varchar product\_name
+
+&#x20;       varchar category
+
+&#x20;       varchar sub\_category
+
+&#x20;       numeric unit\_price
+
+&#x20;       varchar unit\_of\_measure
+
+&#x20;       integer shelf\_life\_months
+
+&#x20;       integer reorder\_point
+
+&#x20;       integer max\_stock\_level
+
+&#x20;   }
+
+
+
+&#x20;   warehouses {
+
+&#x20;       integer warehouse\_id PK
+
+&#x20;       varchar warehouse\_name
+
+&#x20;       varchar city
+
+&#x20;       varchar region
+
+&#x20;       integer capacity\_units
+
+&#x20;   }
+
+
+
+&#x20;   inventory {
+
+&#x20;       integer inventory\_id PK
+
+&#x20;       integer product\_id FK
+
+&#x20;       integer warehouse\_id FK
+
+&#x20;       integer current\_stock
+
+&#x20;       date last\_restocked\_date
+
+&#x20;       date expiry\_date
+
+&#x20;   }
+
+
+
+&#x20;   suppliers {
+
+&#x20;       integer supplier\_id PK
+
+&#x20;       varchar supplier\_name
+
+&#x20;       varchar city
+
+&#x20;       varchar region
+
+&#x20;       integer lead\_time\_days
+
+&#x20;       numeric reliability\_score
+
+&#x20;   }
+
+
+
+&#x20;   sales\_transactions {
+
+&#x20;       integer transaction\_id PK
+
+&#x20;       integer product\_id FK
+
+&#x20;       integer warehouse\_id FK
+
+&#x20;       integer supplier\_id FK
+
+&#x20;       date sale\_date
+
+&#x20;       integer quantity\_sold
+
+&#x20;       numeric unit\_price\_sold
+
+&#x20;       numeric total\_amount
+
+&#x20;       varchar customer\_type
+
+&#x20;   }
 
 
 
