@@ -146,8 +146,6 @@ erDiagram
 
 &#x20;   }
 
-
-
 5 relational tables: products, warehouses, suppliers, inventory, sales\_transactions
 
 
