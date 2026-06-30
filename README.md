@@ -44,11 +44,45 @@ Here is the Database Schema for my project:
 
 #### **📊 Dashboard Pages**
 
-!\[Page 1 Dashboard](./visuals/page01\_inventory\_overview.png)
+<details>
 
-!\[Page 2 Dashboard](./visuals/page02\_dead\_stock\_risk\_analysis.png)
+<summary><b>📈 Page 1 – Inventory Overview</b></summary>
 
-!\[Page 3 Dashboard](./visuals/page03\_reorder\_intelligence.png)
+
+
+!\[Inventory Overview](visuals/page01\_inventory\_overview.png)
+
+
+
+</details>
+
+
+
+<details>
+
+<summary><b>📉 Page 2 – Dead Stock \& Risk Analysis</b></summary>
+
+
+
+!\[Dead Stock Analysis](visuals/page02\_dead\_stock\_risk\_analysis.png)
+
+
+
+</details>
+
+
+
+<details>
+
+<summary><b>📦 Page 3 – Reorder Intelligence</b></summary>
+
+
+
+!\[Reorder Intelligence](visuals/page03\_reorder\_intelligence.png)
+
+
+
+</details>
 
 
 
