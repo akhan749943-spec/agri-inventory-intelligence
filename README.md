@@ -40,10 +40,6 @@ erDiagram
 
 &#x20;   products ||--o{ inventory : "stored in"
 
-&#x20;   erDiagram
-
-&#x20;   products ||--o{ inventory : "stored in"
-
 &#x20;   products ||--o{ sales\_transactions : "sold in"
 
 &#x20;   warehouses ||--o{ inventory : "holds"
@@ -154,19 +150,17 @@ erDiagram
 
 
 
-
-
 5 relational tables: products, warehouses, suppliers, inventory, sales\_transactions
 
 
 
 ###### **📊 Dashboard Pages**
 
-!\[Page 1 Dashboard](visuals/Page\_01\_Inventory\_Overview.png)
+!\[Page 1 Dashboard](visuals/page01\_inventory\_overview.png)
 
-!\[Page 2 Dashboard](visuals/Page\_02\_Dead\_Stock \& Risk\_Analysis.png)
+!\[Page 2 Dashboard](visuals/page02\_dead\_stock\_\&\_risk\_analysis.png)
 
-!\[Page 3 Dashboard](visuals/Page\_03\_Reorder\_Intelligence.png)
+!\[Page 3 Dashboard](visuals/page03\_reorder\_intelligence.png)
 
 
 
