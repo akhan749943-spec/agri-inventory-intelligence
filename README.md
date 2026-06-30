@@ -157,7 +157,7 @@ erDiagram
 
 
 
-![Inventory Overview](visuals/Page\_01\_Inventory\_Overview.png)
+![Inventory Overview](visuals/page01_inventory_overview.png)
 
 
 
@@ -171,7 +171,7 @@ erDiagram
 
 
 
-![Dead Stock Analysis](visuals/Page\_02\_Dead\_Stock\_\&\_Risk\_Analysis.png)
+![Dead Stock Analysis](visuals/page02_dead_stock_risk_analysis.png)
 
 
 
@@ -185,7 +185,7 @@ erDiagram
 
 
 
-![Reorder Intelligence](visuals/Page\_03\_Reorder\_Intelligence.png)
+![Reorder Intelligence](visuals/page03_reorder_intelligence.png)
 
 
 
