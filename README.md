@@ -142,7 +142,7 @@ Here is the Database Schema for my project:
 
 │   ├── page03\_reorder\_intelligence.png
 
-│   └── schema\_diagram.png  (see Step 3)
+│   └── schema\_diagram.png
 
 │
 
