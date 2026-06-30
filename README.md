@@ -44,11 +44,11 @@ Here is the Database Schema for my project:
 
 ###### **📊 Dashboard Pages**
 
-!\[Page 1 Dashboard](visuals/page01\_inventory\_overview.png)
+!\[Page 1 Dashboard](./visuals/page01\_inventory\_overview.png)
 
-!\[Page 2 Dashboard](visuals/page02\_dead\_stock\_\&\_risk\_analysis.png)
+!\[Page 2 Dashboard](./visuals/page02\_dead\_stock\_risk\_analysis.png)
 
-!\[Page 3 Dashboard](visuals/page03\_reorder\_intelligence.png)
+!\[Page 3 Dashboard](./visuals/page03\_reorder\_intelligence.png)
 
 
 
