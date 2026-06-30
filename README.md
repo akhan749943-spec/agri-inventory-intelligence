@@ -4,13 +4,13 @@
 
 
 
-###### **📌 Project Overview**
+#### **📌 Project Overview**
 
 An agricultural supply company managing seeds, fertilizers, pesticides, and farm equipment across multiple warehouses is losing lakhs annually due to dead stock, poor reorder timing, and seasonal demand mismatches. This project transforms raw PostgreSQL inventory data into an interactive Power BI dashboard that enables smarter stocking, inventory clearance, and timely reordering decisions.
 
 
 
-###### **🎯 Business Problem**
+#### **🎯 Business Problem**
 
 * **The Challenge**: The business had **₹3.4 Crores** of capital suffocating on warehouse shelves, misdiagnosed as a general "overstocking" issue rather than a targeted inventory allocation failure.
 * **The Insight**: The company didn't have *too much stock*; it had *the wrong stock*. Capital was trapped in zero-velocity items while fast-moving inventory constantly risked stocking out.
@@ -18,7 +18,7 @@ An agricultural supply company managing seeds, fertilizers, pesticides, and farm
 
 
 
-###### **🛠️ Tech Stack**
+#### **🛠️ Tech Stack**
 
 PostgreSQL | Python (Pandas, SQLAlchemy) | Power BI | DAX
 
@@ -26,7 +26,7 @@ PostgreSQL | Python (Pandas, SQLAlchemy) | Power BI | DAX
 
 
 
-###### **🗄️ Database Schema**
+#### **🗄️ Database Schema**
 
 
 
@@ -42,7 +42,7 @@ Here is the Database Schema for my project:
 
 
 
-###### **📊 Dashboard Pages**
+#### **📊 Dashboard Pages**
 
 !\[Page 1 Dashboard](./visuals/page01\_inventory\_overview.png)
 
@@ -52,7 +52,7 @@ Here is the Database Schema for my project:
 
 
 
-###### **🔑 Top Insights**
+#### **🔑 Top Insights**
 
 * The "Wrong Stock" Problem: The company thought they simply bought "too much inventory." The data proved the real issue: they bought the wrong inventory. We had cash tied up in items that never sell, while popular items were constantly running out.
 * The ₹3.4 Cr Cash Trap: I found that exactly ₹3.4 Crores is currently sitting on warehouse shelves as "Dead Stock" (meaning these items haven't had a single sale in the last 90 days).
@@ -65,7 +65,7 @@ Here is the Database Schema for my project:
 
 
 
-###### **💡 Key Recommendations**
+#### **💡 Key Recommendations**
 
 * **Executive Summary**:
 
@@ -76,7 +76,7 @@ Here is the Database Schema for my project:
 
 
 
-###### **📁 Project Structure**
+#### **📁 Project Structure**
 
 📁agri-inventory-intelligence/
 
@@ -146,7 +146,7 @@ Here is the Database Schema for my project:
 
 
 
-**👤 Author**
+#### **👤 Author**
 
 **Asif Khan | Data Analyst**
 
