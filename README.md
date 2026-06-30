@@ -154,5 +154,7 @@ Here is the Database Schema for my project:
 
 **Asif Khan | Data Analyst**
 
-\[LinkedIn] | \[Email]
+LinkedIn - https://www.linkedin.com/in/asif-khan-data-analyst/
+
+Gmail - akhan749943@gmail.com
 
