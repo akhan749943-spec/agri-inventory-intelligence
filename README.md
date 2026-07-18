@@ -1,16 +1,16 @@
-## **🌾 Agri-Supply Inventory Intelligence**
+# **🌾Agri-Supply Inventory Intelligence**
 
-##### &#x09;(***Dead Stock Detection \& Reorder Optimization)***
+## &#x09;(***Dead Stock Detection \& Reorder Optimization)***
 
 
 
-#### **📌 Project Overview**
+### **📌 Project Overview**
 
 An agricultural supply company managing seeds, fertilizers, pesticides, and farm equipment across multiple warehouses is losing lakhs annually due to dead stock, poor reorder timing, and seasonal demand mismatches. This project transforms raw PostgreSQL inventory data into an interactive Power BI dashboard that enables smarter stocking, inventory clearance, and timely reordering decisions.
 
 
 
-#### **🎯 Business Problem**
+### **🎯 Business Problem**
 
 * **The Challenge**: The business had **₹3.4 Crores** of capital suffocating on warehouse shelves, misdiagnosed as a general "overstocking" issue rather than a targeted inventory allocation failure.
 * **The Insight**: The company didn't have *too much stock*; it had *the wrong stock*. Capital was trapped in zero-velocity items while fast-moving inventory constantly risked stocking out.
@@ -18,15 +18,36 @@ An agricultural supply company managing seeds, fertilizers, pesticides, and farm
 
 
 
-#### **🛠️ Tech Stack**
+### 🛠️ Tech Stack
 
-PostgreSQL | Python (Pandas, SQLAlchemy) | Power BI | DAX
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+> Designed a 5-table relational database (products, warehouses, suppliers, inventory, sales) and wrote 20+ SQL queries — including CTEs and window functions to identify dead stock, reorder points, and supplier risk.
+
+<br>
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+> Connected to PostgreSQL, engineered features (stock status, coverage days, health score, carrying cost), and validated results against SQL output before exporting for Power BI.
+
+<br>
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge)
+
+> Built a live-connected 3-page dashboard covering inventory overview, dead stock risk, and reorder intelligence.
+> Built measures for dead stock value, reorder alerts, inventory health score, and total carrying cost.
+
+<br>
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+> Managed version control, hosted the project on GitHub for collaboration and portfolio showcase.
 
 
+---
 
-
-
-#### **🗄️ Database Schema**
+### **🗄️ Database Schema**
 
 Here is the Database Schema for my project (5 relational tables: products, warehouses, suppliers, inventory, sales_transactions):
 
@@ -89,7 +110,7 @@ erDiagram
     }
 ```
 
-#### **📊 Dashboard Pages**
+### **📊 Dashboard Pages**
 
 <details>
 
@@ -131,9 +152,9 @@ erDiagram
 
 </details>
 
+<br>
 
-
-#### **🔑 Top Insights**
+### **🔑 Top Insights**
 
 * The "Wrong Stock" Problem: The company thought they simply bought "too much inventory." The data proved the real issue: they bought the wrong inventory. We had cash tied up in items that never sell, while popular items were constantly running out.
 * The ₹3.4 Cr Cash Trap: I found that exactly ₹3.4 Crores is currently sitting on warehouse shelves as "Dead Stock" (meaning these items haven't had a single sale in the last 90 days).
@@ -144,9 +165,9 @@ erDiagram
 * Sales Speed vs. Stock Volume: The scatter plot proved a massive mismatch: our best-selling items were chronically under-stocked, while our worst-selling items were taking up the most physical warehouse space.
 * Fixing Regional Imbalances: The data showed that some central warehouses were hoarding extra stock, while smaller regional branches were completely sold out of the exact same items.
 
+<br>
 
-
-#### **💡 Key Recommendations**
+### **💡 Key Recommendations**
 
 * **Executive Summary**:
 
@@ -155,81 +176,51 @@ erDiagram
 
   * I recommend we immediately liquidate the dead stock at the 40% discount to stop the ₹1.1 Crore annual storage bleed, and use the cash we get back to fully fund our critical inventory reorders today.
 
+<br>
 
+## 📂 Project Structure
 
-#### **📁 Project Structure**
-
-📁agri-inventory-intelligence/
-
+```text
+Agri-Supply-Inventory-Intelligence/
 │
-
-├── sql/
-
-│   ├── day\_01-02\_data\_preparation.sql
-
-│   ├── day\_03\_data\_verification.sql
-
-│   ├── day\_04\_inventory\_health.sql
-
-│   ├── day\_05\_dead\_stock\_analysis.sql
-
-│   ├── day\_06\_sales\_velocity.sql
-
-│   └── day\_07\_reorder\_intelligence.sql
-
-│   └── day\_08\_financial\_impact.sql
-
+├── 📊 dashboard/
+│   └── Agri_Inventory_Dashboard.pbix
 │
-
-├── jupyter\_notebook/
-
-│   ├── day\_09\_python\_postgres\_connection.ipynb
-
-│   └── day\_10\_feature\_engineering.ipynb
-
-│
-
-├── data/
-
-│   ├── warehouses.csv
-
-│   ├── suppliers.csv
-
-│   ├── products.csv
-
+├── 📁 data/
+│   ├── agri_inventory_master_analysis.csv
 │   ├── inventory.csv
-
-│   ├── sales\_transactions.csv
-
-│   └── agri\_inventory\_master\_analysis.csv
-
+│   ├── products.csv
+│   ├── sales_transactions.csv
+│   ├── suppliers.csv
+│   └── warehouses.csv
 │
-
-├── dashboard/
-
-│   └── Agri\_Inventory\_Dashboard.pbix
-
+├── 📓 jupyter_notebook/
+│   ├── day_09_python_postgres_connection.ipynb
+│   └── day_10_feature_engineering.ipynb
 │
-
-├── visuals/
-
-│   ├── page01\_inventory\_overview.png
-
-│   ├── page02\_dead\_stock \& risk\_analysis.png
-
-│   ├── page03\_reorder\_intelligence.png
-
-│   └── schema\_diagram.png
-
+├── 🗄️ sql/
+│   ├── day_01-02_data_preparation.sql
+│   ├── day_03_data_verification.sql
+│   ├── day_04_inventory_health.sql
+│   ├── day_05_dead_stock_analysis.sql
+│   ├── day_06_sales_velocity.sql
+│   ├── day_07_reorder_intelligence.sql
+│   └── day_08_financial_impact.sql
 │
+├── 🖼️ visuals/
+│   ├── page01_inventory_overview.png
+│   ├── page02_dead_stock_risk_analysis.png
+│   ├── page03_reorder_intelligence.png
+│   └── schema_diagram.png
+│
+└── 📄 README.md
+```
 
-└── README.md
+<br>
 
+### **👤 Author**
 
-
-#### **👤 Author**
-
-**Asif Khan | Data Analyst**
+**ASIF KHAN | Data Analyst**
 
 LinkedIn - https://www.linkedin.com/in/asif-khan-data-analyst/
 
