@@ -218,11 +218,12 @@ Agri-Supply-Inventory-Intelligence/
 
 <br>
 
-### **👤 Author**
+## **👤Author**
 
-**ASIF KHAN | Data Analyst**
 
-LinkedIn - https://www.linkedin.com/in/asif-khan-data-analyst/
+### **ASIF KHAN**
+#### ***Data Analyst | Python | SQL | Power BI | Tableau | Excel***
 
-Gmail - akhan749943@gmail.com
+* **[LinkedIn]** - ***https://www.linkedin.com/in/asif-khan-data-analyst/***
 
+* **[Gmail]** - ***akhan749943@gmail.com***
